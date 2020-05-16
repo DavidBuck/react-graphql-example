@@ -13,4 +13,3 @@ Run `npm run start` to start the json-graphql-serve and the React client.
 - [JSON Server](https://github.com/typicode/json-server)
 - [Apollo Boost](https://www.npmjs.com/package/apollo-boost)
 - [Tailwind](https://tailwindcss.com)
-- [ng-tailwindcss](https://github.com/tehpsalmist/ng-tailwindcss)
