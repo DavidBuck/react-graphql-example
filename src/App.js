@@ -1,4 +1,3 @@
-import React from "react"
 import { gql } from "apollo-boost"
 import { useQuery, useMutation } from "@apollo/react-hooks"
 
@@ -139,7 +138,7 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {data.allPosts.map(post => (
+          {data.allPosts.map((post) => (
             <tr key={post.id}>
               <td className="border px-4 py-2 border-gray-600">{post.id}</td>
               <td className="border px-4 py-2 border-gray-600">{post.title}</td>
